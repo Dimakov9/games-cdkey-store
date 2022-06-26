@@ -1,0 +1,33 @@
+.gallery-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.gallery-img__item-wrapper {
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #f5f5f5;
+  background: white;
+  transition: 0.4s ease-in;
+  height: fit-content;
+}
+.gallery-img__item-wrapper:hover {
+  transform: scale(2);
+}
+
+.gallery-img__item-wrapper img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.gallery-img__itemt {
+  background: #fafafa;
+  padding: 15px 0;
+}

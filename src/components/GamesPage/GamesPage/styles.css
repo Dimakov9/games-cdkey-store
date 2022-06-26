@@ -1,0 +1,9 @@
+.game-content {
+  display: flex;
+  gap: 1rem;
+  margin-top: 18px;
+}
+
+.carousel-status {
+  display: none;
+}

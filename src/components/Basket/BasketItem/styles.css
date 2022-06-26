@@ -1,0 +1,15 @@
+.basket-item {
+  border: 1px solid black;
+  padding: 5px;
+}
+.basket-item__img {
+  max-width: 100px;
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+
+.basket-item__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

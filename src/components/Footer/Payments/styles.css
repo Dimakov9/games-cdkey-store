@@ -1,0 +1,11 @@
+.payments-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.payments-img {
+  object-fit: cover;
+  max-width: 100%;
+}

@@ -1,0 +1,8 @@
+.header__topline {
+  display: flex;
+  gap: 15px;
+}
+
+.css-hyum1k-MuiToolbar-root {
+  justify-content: space-between;
+}

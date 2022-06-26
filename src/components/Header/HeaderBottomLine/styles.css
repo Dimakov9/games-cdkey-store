@@ -1,0 +1,12 @@
+.product-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.product-categories__item {
+  border: 1px solid black;
+  padding: 5px;
+}

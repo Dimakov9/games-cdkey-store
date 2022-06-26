@@ -1,0 +1,8 @@
+.error-page__img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.error-page-wrapper {
+  margin-top: 15px;
+}
